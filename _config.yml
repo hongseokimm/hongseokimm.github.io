@@ -22,8 +22,8 @@ twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/hongseok.jpeg
-favicon: ./assets/img/iowastate.jpeg
+avatar: ./assets/img/hongseok.png
+favicon: ./assets/img/iowastate.png
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
