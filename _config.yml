@@ -1,7 +1,9 @@
 # Basic Information 
 title: Hong Seok Kim
 position: Ph.D. Student
-affiliation: Department of Economics, Iowa State University
+affiliation: 
+<p>Department of Economics</p>
+<p>Iowa State University</p>
 email: hongseok@iastate.edu
 
 # Search Engine Optimization (SEO)
@@ -20,8 +22,8 @@ twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
+avatar: ./assets/img/hongseok.jpeg
+favicon: ./assets/img/iowastate.jpeg
 favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
