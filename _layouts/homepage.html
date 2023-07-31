@@ -34,22 +34,34 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
-  <body>  
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+      }
+   </script>
+   
+
+  </head>
+  <body>
+    
     <div class="topnav">
 
-      <nav> 
-        <a href="{{ site.baseurl }}/index">Contact</a>
-        <a href="{{ site.baseurl }}/research_papers">Research Papers</a>
-        <!-- <a href="{{ site.baseurl }}/notebook">Notebook</a>
-        <a href="{{ site.baseurl }}/public_goods">My Public Goods</a>
-        <a href="{{ site.baseurl }}/teaching">Teaching</a>
-        <a href="{{ site.baseurl }}/resources">Resources</a>
-        <a href="{{ site.baseurl }}/jmc">JMC Hub</a>
-        <a href="{{ site.baseurl }}/personal">Personal</a> -->
-      </nav>
+      <!-- <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a> -->
+
+      <div id="myLinks">
+      {% include navigation.md %}
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
       
-    </div>  
-  </body>  
+    </div>
     
   </head>
   <body>
