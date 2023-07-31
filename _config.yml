@@ -1,15 +1,15 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Postdoctoral Fellow
-affiliation: Johns Hopkins University
-affiliation_link: https://cs.jhu.edu/
-affiliation_logo: ./assets/img/university-logo-small-horizontal-white-156eae9527.svg
-email: yliu538 (at) jhu.edu
+title: Hong Seok Kim
+position: Ph.D. Student
+affiliation: Iowa State University
+affiliation_link: https://econ.iastate.edu/
+affiliation_logo: ./assets/img/iowa_state_logo.png
+email: hongseok (at) iastate.edu
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://www.cs.jhu.edu/~yyliu/
-description: Yaoyao Liu is a postdoctoral fellow at Johns Hopkins University. His research lies in meta-learning, incremental learning, and image generation.
+keywords: hongseok kim, kim hongseok, hongseokimm, hongseokkim
+canonical: https://www.econ.iastate.edu/
+description: Hongseok Kim is a Ph.D. student in Economics at the Iowa State University. 
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -18,16 +18,15 @@ enable_hopkins_logo: true
 enable_last_update: false
 
 # Links
-google_scholar: https://scholar.google.com/citations?user=Uf9GqRsAAAAJ
-cv_link: https://pages.jh.edu/yliu538/files/Yaoyao_Liu_Curriculum_Vitae.pdf
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+google_scholar: https://scholar.google.com/
+cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/
+twitter: https://twitter.com/
 
 # Images 
-avatar: https://img.yliu.me/avatar.jpg
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+avatar: ./assets/img/hongseok.png
+favicon: ./assets/img/iowastate.png
+favicon_dark: ./assets/img/iowastate.png
 
 # Footnotes
 footnote: Feel free to use my website's source code.
