@@ -18,5 +18,4 @@ My research lies at the intersection of **macroeconomics** -- with a special foc
 {% include_relative _includes/WorkProgress.md %}
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/teaching.md %}
-<!-- {% include_relative _includes/services.md %} -->
 {% include_relative _includes/contact.md %}
