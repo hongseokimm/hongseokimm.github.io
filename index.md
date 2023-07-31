@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 60px 0px 10px;">Biography</h2>
 
-I am a rising third-year Ph.D. student in Economics at Iowa State University. Before Ph.D., I obtained my bachelor's and master's degree from [Hanyang University](www.hanyang.ac.kr), Seoul, South Korea. 
+I am a rising third-year Ph.D. student in Economics at Iowa State University. Before Ph.D., I obtained my bachelor's and master's degree from [Hanyang University](https://www.hanyang.ac.kr), Seoul, South Korea. 
 
 My research lies at the intersection of **macroeconomics** -- with a special focus on understanding the underlying mechanisms for **fertility decisions** and the macroeconomic implications of **population dynamics**. 
 
@@ -15,12 +15,8 @@ My research lies at the intersection of **macroeconomics** -- with a special foc
 
 {% include_relative _includes/news.md %}
 
+{% include_relative _includes/WorkProgress.md %}
 {% include_relative _includes/publications.md %}
-
 {% include_relative _includes/teaching.md %}
-
-{% include_relative _includes/talks.md %}
-
-{% include_relative _includes/services.md %}
-
+<!-- {% include_relative _includes/services.md %} -->
 {% include_relative _includes/contact.md %}
