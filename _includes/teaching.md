@@ -5,6 +5,9 @@
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul>
   <li>
+    ECON101, Introduction to Microeconomics, Iowa State University, Fall 2023 
+  </li>
+  <li>
     ECON371, Introduction to Econometrics, Iowa State University, Fall 2022 
   </li>
   <li>
