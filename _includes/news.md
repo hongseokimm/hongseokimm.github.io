@@ -3,7 +3,9 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[July. 2023]</strong> First update of personal webpage!</li>
+<li><strong>[Oct. 2024]</strong> Presentation @19th Graduate Student Workshop, Washington Univ St.Louis</li>
+<li><strong>[Sep. 2024]</strong> Presentation @Midwest Macro Meeting</li>
+<li><strong>[July. 2024]</strong> First update of personal webpage!</li>
 
 <!-- 
 <li><strong>[Aug. 2023]</strong> I will give an <b>in-person</b> talk at <a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html">Purdue Computational Imaging Seminar</a>.</li>
