@@ -4,9 +4,9 @@ main:
     url: ./#contact 
     right: true 
 
-  - title: "Research"
-    url: ./#WorkProgress
-    right: true 
+  # - title: "Research"
+  #   url: ./#WorkProgress
+  #   right: true 
 
 
   #- title: "Services"
