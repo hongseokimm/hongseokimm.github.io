@@ -3,7 +3,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Oct. 2024]</strong> Presentation @19th Graduate Student Workshop, Washington Univ St.Louis</li>
+<li><strong>[Nov. 2024]</strong> Presentation @Southern Economic Association, Washington D.C.</li>
+<li><strong>[Oct. 2024]</strong> Presentation @19th Graduate Student Workshop, Washington University of St.Louis</li>
 <li><strong>[Sep. 2024]</strong> Presentation @Midwest Macro Meeting</li>
 <li><strong>[July. 2024]</strong> First update of personal webpage!</li>
 
