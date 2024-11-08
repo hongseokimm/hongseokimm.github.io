@@ -2,6 +2,7 @@
 
 <h2 style="margin: 60px 0px 10px;">Work in Progress</h2>
 
+<h4 style="margin:0 10px 0;"> Intergenerational Contract under Incomplete Information</h4>
 
 <h4 style="margin:0 10px 0;"> Ambiguity Aversion and Fertility Decisions</h4>
 
