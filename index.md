@@ -16,6 +16,5 @@ My research lies at the intersection of **macroeconomics** -- with a focus on un
 {% include_relative _includes/news.md %}
 
 {% include_relative _includes/WorkProgress.md %}
-<!-- {% include_relative _includes/publications.md %} -->
 {% include_relative _includes/teaching.md %}
 {% include_relative _includes/contact.md %}
