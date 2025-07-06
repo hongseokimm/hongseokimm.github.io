@@ -30,7 +30,7 @@
     padding: 10px 9px;
     text-decoration: none;
     font-size: 17px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Crimson Pro", serif;
   }
   
   /* Change the color of links on hover */
@@ -56,7 +56,7 @@
 
     .topnav a.normal {
         padding: 10px 5px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Crimson Pro", serif;
     }
 
    }
@@ -130,7 +130,7 @@
       }
 
       .topnav a.normal {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Crimson Pro", serif;
         color: white;
         float: none;
         padding: 14px 16px;
