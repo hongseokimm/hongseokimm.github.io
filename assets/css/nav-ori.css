@@ -21,6 +21,7 @@
     padding: 18px 9px;
     text-decoration: none;
     font-size: 17px;
+    font-family: "Crimson Pro", serif;
   }
   
   /* Change the color of links on hover */
@@ -44,9 +45,10 @@
         margin-right:3%;
       }
 
-    .topnav a {
-        padding: 18px 5px;
-    }
+      .topnav a {
+          padding: 18px 5px;
+          font-family: "Crimson Pro", serif;
+      }
 
    }
 
