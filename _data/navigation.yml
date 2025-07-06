@@ -1,12 +1,12 @@
 main:
 
   - title: "Contact"
-    url: ./#contact 
-    right: true 
+    url: ./#contact
+    right: true
 
-  # - title: "Research"
-  #   url: ./#WorkProgress
-  #   right: true 
+  - title: "Research"
+    url: ./research
+    right: true
 
 
   #- title: "Services"
