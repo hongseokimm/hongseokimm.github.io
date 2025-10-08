@@ -2,7 +2,7 @@
 
 <h2 style="margin: 60px 0px 10px;">Work in Progress</h2>
 
-<h4 style="margin:0 10px 0;"> Precautionary Retirement</h4>
+<h4 style="margin:0 10px 0;"> Precautionary Retirement (Job Market Paper)</h4>
 <ul style="margin:0 0 5px;">
   <li>
   Abstract. Traditional retirement - full withdrawal from labor market - has increasingly shifted toward “un-retirement,” with many seniors returning to work after claiming Social Security benefits. This study introduces “precautionary retirement,” where seniors remain employed due to inadequate savings, limited insurance, and rising health-related expenses. Empirically, senior labor participation doubled since 1990, affected by wealth difference: the wealthy retirees show high labor supply due to increased medical expense risks. Our theoretical model explicitly links retirement timing to Social Security benefit claims, highlighting how increased medical expense risk delays retirement timing. Eliminating out-of-pocket medical expense risks after retirement decreases the average life-cycle working hours by 33%.

@@ -1,10 +1,10 @@
 main:
 
-  - title: "Bio"
-    url: ./#about-me
+  - title: "Teaching"
+    url: ./teaching
 
   - title: "Research"
     url: ./research
 
-  - title: "Teaching"
-    url: ./teaching
+  - title: "Bio"
+    url: ./#about-me

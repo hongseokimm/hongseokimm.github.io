@@ -8,4 +8,4 @@
 <br />
 <strong>Email:</strong> <email>hongseok (at) iastate.edu</email>
 <br />
-<strong>Phone:</strong> (515) 230-0000</p>
+<!-- <strong>Phone:</strong> (515) 230-0000</p> -->
