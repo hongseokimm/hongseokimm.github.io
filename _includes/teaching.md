@@ -2,6 +2,15 @@
 
 <h2 style="margin: 60px 0px 10px;">Teaching</h2>
 
+<h4 style="margin:0 10px 0;">Sole Instructor</h4>
+<ul>
+  <li>
+    ECON102, Principles of Macroeconomics, Iowa State University, 2025
+  </li>
+  </li>
+</ul>
+
+
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul>
   <li>
