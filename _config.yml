@@ -9,7 +9,7 @@ email: hongseok (at) iastate.edu
 # Search Engine Optimization (SEO)
 keywords: hongseok kim, kim hongseok, hongseokimm, hongseokkim
 canonical: https://www.econ.iastate.edu/
-description: Hongseok Kim is a Ph.D. student in Economics at the Iowa State University. 
+description: Hongseok Kim is a Ph.D. Candidate in Economics at the Iowa State University. 
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -19,7 +19,7 @@ enable_last_update: false
 
 # Links
 google_scholar: https://scholar.google.com/
-cv_link: assets/files/hongseok_cv.pdf
+cv_link: assets/files/HongSeok_CV_Latest.pdf
 github_link: https://github.com/
 twitter: https://twitter.com/
 
