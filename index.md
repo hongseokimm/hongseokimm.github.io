@@ -9,7 +9,7 @@ layout: homepage
 <!-- <p style="font-size:1.15em;"> -->
 I am a fifth-year Ph.D. student in Economics at [Iowa State University](https://www.econ.iastate.edu/). Before Ph.D., I obtained my bachelor's and master's degree from [Hanyang University](https://www.hanyang.ac.kr), Seoul, South Korea. 
 
-My research lies at the intersection of **macroeconomics** with a focus on understanding the macroeconomic implications of **demographic transitions**, including fertility and retirement decisions. 
+My areas of interests are **macroeconomics** with a focus on understanding the macroeconomic implications of **demographic transitions** and **family economics**, including fertility and retirement decisions. 
 
 I will be on the academic job market in **2025-2026**. My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf).
 <!-- </p> -->
