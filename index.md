@@ -16,7 +16,5 @@ I will be on the academic job market in **2025-2026**. My C.V is available [here
 
 {% include_relative _includes/news.md %}
 
-{% include_relative _includes/WorkProgress.md %}
-<!-- {% include_relative _includes/publications.md %} -->
-{% include_relative _includes/teaching.md %}
+
 {% include_relative _includes/contact.md %}
