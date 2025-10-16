@@ -7,7 +7,6 @@
   <li>
     ECON102, Principles of Macroeconomics, Iowa State University, 2025
   </li>
-  </li>
 </ul>
 
 
