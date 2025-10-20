@@ -13,7 +13,7 @@ My areas of interests are **macroeconomics** with a focus on understanding the m
 
 <strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600">
 I will be on the 2025-2026 academic job market. My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf). </strong></strong> 
-3
+
 {% include_relative _includes/news.md %}
 
 
