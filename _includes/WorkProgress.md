@@ -5,14 +5,19 @@
 <h4 style="margin:0 10px 0;"> Precautionary Retirement (Job Market Paper)</h4>
 <ul style="margin:0 0 5px;">
   <li>
-  Abstract. Traditional retirement - full withdrawal from labor market - has increasingly shifted toward “un-retirement,” with many seniors returning to work after claiming Social Security benefits. This study introduces “precautionary retirement,” where seniors remain employed due to inadequate savings, limited insurance, and rising health-related expenses. Empirically, senior labor participation doubled since 1990, affected by wealth difference: the wealthy retirees show high labor supply due to increased medical expense risks. Our theoretical model explicitly links retirement timing to Social Security benefit claims, highlighting how increased medical expense risk delays retirement timing. Eliminating out-of-pocket medical expense risks after retirement decreases the average life-cycle working hours by 33%.
+  Abstract. With Social Security's trust fund facing depletion, this paper studies how the system's regressive payroll tax shapes labor supply and retirement decision, motivated by an observation that high-income older males work more. We develop a tractable labor supply model with heterogeneous work-costs, demonstrating that the elasticity of labor supply to financial incentives is inherently distributional. High-income workers, further from retirement cutoff, primarily adjust their hours (intensive margin), while those with higher work-costs adjust participation (extensive margin). Our central contribution is the measurement of these income group-specific elasticities, providing a framework to evaluate the distributional effects of policy reforms.
   </li>
 </ul>
 
 
-<h4 style="margin:0 10px 0;"> Ambiguity Aversion and Fertility Decisions</h4>
+<ul style="margin:0 0 5px;">
+  <!-- <li><a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html"><autocolor>Computational Imaging Seminar, Purdue University, August 2023.</autocolor></a></li> -->
+  <!-- <li>Singapore Management University, Singapore, September 2020.</li> -->
+</ul>
 
-<!-- <ul style="margin:0 0 5px;">
+<h4 style="margin:0 10px 0;"> Ambiguity Aversion and Fertility Decisions</h4>
+<!-- 
+<ul style="margin:0 0 5px;">
   <li><a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html"><autocolor>Computational Imaging Seminar, Purdue University, August 2023.</autocolor></a></li>
   <li>Singapore Management University, Singapore, September 2020.</li>
 </ul> -->
