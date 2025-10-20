@@ -9,11 +9,18 @@
   </li>
 </ul>
 
+<!-- simple vertical gap -->
+<div style="height:15px;"></div>
 
-<ul style="margin:0 0 5px;">
+<!-- larger gap (uncomment to use) -->
+<!-- <div style="height:60px;"></div> -->
+
+<!-- alternate: semantic spacing -->
+<!-- <p style="margin:30px 0;"></p> -->
+<!-- <ul style="margin:0 0 5px;"> -->
   <!-- <li><a href="https://engineering.purdue.edu/ChanGroup/comp_imaging_seminar.html"><autocolor>Computational Imaging Seminar, Purdue University, August 2023.</autocolor></a></li> -->
   <!-- <li>Singapore Management University, Singapore, September 2020.</li> -->
-</ul>
+<!-- </ul> -->
 
 <h4 style="margin:0 10px 0;"> Ambiguity Aversion and Fertility Decisions</h4>
 <!-- 
