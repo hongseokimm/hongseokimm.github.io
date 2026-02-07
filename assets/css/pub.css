@@ -48,7 +48,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .abbr .award { color: var(--global-theme-color) !important; border: 1px solid var(--global-theme-color); }
 
-.publications ol.bibliography li .title { font-weight: bolder; }
+.publications ol.bibliography li .title {
+    font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+    font-size: 1.45rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+@media print, screen and (max-width: 960px) {
+    .publications ol.bibliography li .title { font-size: 1.3rem; }
+}
 
 .publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
 
