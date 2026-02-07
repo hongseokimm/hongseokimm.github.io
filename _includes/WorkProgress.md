@@ -2,7 +2,7 @@
 
 <h2 style="margin: 60px 0px 10px;">Work in Progress</h2>
 
-<h4 style="margin:0 10px 0;"> Precautionary Retirement (Job Market Paper)</h4>
+<h4 style="margin:0 10px 0;"> Precautionary Retirement</h4>
 <ul style="margin:0 0 5px;">
   <li>
   Abstract. With Social Security's trust fund facing depletion, this paper studies how the system's regressive payroll tax shapes labor supply and retirement decision, motivated by an observation that high-income older males work more and longer. We develop a tractable labor supply model with heterogeneous work-costs, demonstrating that the elasticity of labor supply to financial incentives is inherently distributional. High-income workers, further from retirement cutoff, primarily adjust their hours (intensive margin), while those with higher work-costs adjust participation (extensive margin). Our central contribution is the measurement of these income group-specific elasticities, providing a framework to evaluate the distributional effects of policy reforms. We find seniors are 1.71 more elastic than the prime-age workers, implying that raising payroll tax rates may not resolve the solvency of Social Security. 

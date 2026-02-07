@@ -10,11 +10,11 @@ I am a fifth-year Ph.D. Candidate in Economics at [Iowa State University](https:
 
 My areas of interests are **macroeconomics** with a focus on understanding the macroeconomic implications of **demographic transitions** and **family economics**, including fertility and retirement decisions. 
 
-My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf).
+My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf?v=20260207).
 
 <!-- <strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600"> -->
 <!-- I will be on the 2025-2026 academic job market.  -->
-<!-- My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf). </strong></strong>  -->
+<!-- My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf?v=20260207). </strong></strong>  -->
 
 {% include_relative _includes/news.md %}
 
