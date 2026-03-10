@@ -2,21 +2,23 @@
 layout: homepage
 ---
 
-<h1 id="about-me"></h1>
+<section class="page-intro" id="about-me">
+  <p class="eyebrow">About</p>
+  <h1 class="page-heading">Researching how demographic change and household decisions shape the macroeconomy.</h1>
+  <p class="lede">I am a fifth-year Ph.D. Candidate in Economics at <a href="https://www.econ.iastate.edu/">Iowa State University</a>.</p>
+  <p>Before beginning my Ph.D., I received my bachelor's and master's degrees from <a href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
+  <p>My research sits at the intersection of macroeconomics, demographic transitions, and family economics, with a particular focus on retirement behavior, fertility decisions, and the distributional effects of policy.</p>
+</section>
 
-<h2 style="margin: 60px 0px 10px;">Biography</h2>
-
-I am a fifth-year Ph.D. Candidate in Economics at [Iowa State University](https://www.econ.iastate.edu/). Before Ph.D., I obtained my bachelor's and master's degree from [Hanyang University](https://www.hanyang.ac.kr), Seoul, South Korea. 
-
-My areas of interests are **macroeconomics** with a focus on understanding the macroeconomic implications of **demographic transitions** and **family economics**, including fertility and retirement decisions. 
-
-My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf?v=20260207).
-
-<!-- <strong style="color:#e74d3c; font-weight:600"><strong style="color:#e74d3c; font-weight:600"> -->
-<!-- I will be on the 2025-2026 academic job market.  -->
-<!-- My C.V. is available [here](assets/files/HongSeok_CV_Latest.pdf?v=20260207). </strong></strong>  -->
+<section class="section-block">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Research</p>
+      <h2>Current Projects</h2>
+    </div>
+    <a class="section-link" href="{{ '/research' | relative_url }}">All research</a>
+  </div>
+  {% include research_cards.html compact="true" %}
+</section>
 
 {% include_relative _includes/news.md %}
-
-
-{% include_relative _includes/contact.md %}

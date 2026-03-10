@@ -1,30 +1,39 @@
-<h1 id="teaching"></h1>
+<section class="section-block" id="teaching-record">
+  <div class="teaching-grid">
+    <section class="teaching-group">
+      <p class="group-label">Sole Instructor</p>
+      <div class="course-list">
+        <article class="course-item">
+          <p class="course-title">ECON 102, Principles of Macroeconomics</p>
+          <p class="course-meta">Iowa State University, 2025</p>
+        </article>
+      </div>
+    </section>
 
-<h2 style="margin: 60px 0px 10px;">Teaching</h2>
-
-<h4 style="margin:0 10px 0;">Sole Instructor</h4>
-<ul>
-  <li>
-    ECON102, Principles of Macroeconomics, Iowa State University, 2025
-  </li>
-</ul>
-
-
-<h4 style="margin:0 10px 0;">Teaching Assistant</h4>
-<ul>
-  <li>
-    ECON602, Ph.D. Macroeconomics Analysis, Iowa State University, 2025F
-  </li>
-  <li>
-    ECON604, Ph.D. Advanced Macroeconomics, Iowa State University, 2024S, 2025S
-  </li>
-  <li>
-    ECON603, Ph.D. Microeconomics - Game Theory, Iowa State University, 2023S
-  </li>
-  <li>
-    ECON101, Introduction to Microeconomics, Iowa State University, 2023F
-  </li>
-  <li>
-    ECON371, Introduction to Econometrics, Iowa State University, 2022F 
-  </li>
-</ul>
+    <section class="teaching-group">
+      <p class="group-label">Teaching Assistant</p>
+      <div class="course-list">
+        <article class="course-item">
+          <p class="course-title">ECON 602, Ph.D. Macroeconomics Analysis</p>
+          <p class="course-meta">Iowa State University, Fall 2025</p>
+        </article>
+        <article class="course-item">
+          <p class="course-title">ECON 604, Ph.D. Advanced Macroeconomics</p>
+          <p class="course-meta">Iowa State University, Spring 2024 and Spring 2025</p>
+        </article>
+        <article class="course-item">
+          <p class="course-title">ECON 603, Ph.D. Microeconomics: Game Theory</p>
+          <p class="course-meta">Iowa State University, Spring 2023</p>
+        </article>
+        <article class="course-item">
+          <p class="course-title">ECON 101, Introduction to Microeconomics</p>
+          <p class="course-meta">Iowa State University, Fall 2023</p>
+        </article>
+        <article class="course-item">
+          <p class="course-title">ECON 371, Introduction to Econometrics</p>
+          <p class="course-meta">Iowa State University, Fall 2022</p>
+        </article>
+      </div>
+    </section>
+  </div>
+</section>

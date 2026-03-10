@@ -1,0 +1,31 @@
+{% assign entries = site.data.research %}
+{% if include.limit %}
+  {% assign entries = site.data.research | slice: 0, include.limit %}
+{% endif %}
+
+<div class="research-stack{% if include.compact == 'true' %} is-compact{% endif %}">
+  {% for paper in entries %}
+  <article class="paper-entry">
+    <div class="paper-meta">
+      <span class="paper-status">{{ paper.status }}</span>
+    </div>
+    <h2 class="paper-title">{{ paper.title }}</h2>
+    <p class="paper-summary">{{ paper.summary }}</p>
+
+    {% if paper.links %}
+    <div class="paper-links">
+      {% for link in paper.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% unless include.compact == 'true' %}
+    <details class="paper-abstract">
+      <summary>Abstract</summary>
+      <p>{{ paper.abstract }}</p>
+    </details>
+    {% endunless %}
+  </article>
+  {% endfor %}
+</div>

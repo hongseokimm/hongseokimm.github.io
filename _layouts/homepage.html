@@ -1,121 +1,99 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }}'s Homepage</title>
+    {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
+    <title>{{ site.title }} | {{ site.position }}</title>
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="{{ site.title }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.keywords }}">
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}">
-    <meta property="og:url" content="{{ site.canonical }}">
+    <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="default">
-    <meta property="og:image" content="{{ site.avatar }}">
+    <meta property="og:image" content="{{ site.avatar | absolute_url }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }} | {{ site.affiliation }}">
     <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image" content="{{ site.avatar }}">
+    <meta name="twitter:image" content="{{ site.avatar | absolute_url }}">
 
-    <link rel="canonical" href="{{site.canonical}}"/>
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="canonical" href="{{ canonical_url }}"/>
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | relative_url }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | relative_url }}" type="image/png" />
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-    
-    <script type="text/javascript">
-      function toggle_vis(id) {
-          var e = document.getElementById(id);
-          if (e.style.display == 'none')
-              e.style.display = 'inline';
-          else
-              e.style.display = 'none';
-      }
-   </script>
+    <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
   </head>
-  <body>
-    <main class="site-shell">
-      <header class="hero">
-        <div class="hero-copy">
-          {% if site.position %}
-          <p class="hero-kicker">{{ site.position }}</p>
-          {% endif %}
-          <h1>{{ site.title }}</h1>
-          {% if site.affiliation %}
-          <p class="hero-affiliation">
-            <a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a>
-          </p>
-          {% endif %}
-          {% if site.email %}
-          <p><email>{{ site.email }}</email></p>
-          {% endif %}
-          {% if site.email2 %}
-          <p><email>{{ site.email2 }}</email></p>
-          {% endif %}
-
-          <div class="hero-links">
-            {% if site.cv_link %}
-            <a href="{{ site.cv_link }}">CV</a>
-            {% endif %}
-            {% if site.github_link %}
-            <a href="{{ site.github_link }}">GitHub</a>
-            {% endif %}
-            {% if site.linkedin %}
-            <a href="{{ site.linkedin }}">LinkedIn</a>
-            {% endif %}
-          </div>
-        </div>
-
-        {% if site.avatar %}
-        <figure class="hero-image">
-          <img src="{{ site.avatar }}" alt="{{ site.title }} portrait" />
-        </figure>
-        {% endif %}
+  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="primary-nav" aria-label="Primary">
+          {% include navigation.md %}
+        </nav>
       </header>
 
-      <nav class="primary-nav">
-        {% include navigation.md %}
-      </nav>
+      <main class="site-grid">
+        <aside class="profile-panel">
+          {% if site.avatar %}
+          <figure class="profile-portrait">
+            <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait" />
+          </figure>
+          {% endif %}
 
-      <section class="content-body">
-        {{ content }}
-      </section>
+          <div class="profile-copy">
+            <p class="profile-name">{{ site.title }}</p>
+            {% if site.position %}
+            <p class="profile-position">{{ site.position }}</p>
+            {% endif %}
 
-      <footer class="site-footer">
-        {% if site.enable_last_update %}
-        <p>
-          <small>Last update:
-          <script>
-            const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-            var modiDate = new Date(document.lastModified);
-            var showAs = monthNames[modiDate.getMonth()] + " " + modiDate.getDate() + ", " + modiDate.getFullYear();
-            document.write(showAs);
-          </script>
-          </small>
-        </p>
-        {% endif %}
+            <blockquote class="profile-details">
+              {% if site.department %}
+              <p>{{ site.department }}</p>
+              {% endif %}
+              {% if site.affiliation %}
+              <p><a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a></p>
+              {% endif %}
+              {% if site.office %}
+              <p>{{ site.office }}</p>
+              {% endif %}
+              {% if site.address %}
+              <p>{{ site.address }}</p>
+              {% endif %}
+              {% if site.email %}
+              <p><a href="mailto:{{ site.email | replace: ' (at) ', '@' | replace: ' ', '' }}">{{ site.email }}</a></p>
+              {% endif %}
+            </blockquote>
 
-        {% if site.footnote %}
-        <p><small><a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a></small></p>
-        {% endif %}
+            {% if site.research_fields %}
+            <p class="profile-fields">{{ site.research_fields }}</p>
+            {% endif %}
 
-        {% if site.imprint %}
-        <p><small><a href="{{ site.imprint }}" rel="noopener">Imprint / Impressum</a></small></p>
-        {% endif %}
-        {% if site.data_protection %}
-        <p><small><a href="{{ site.data_protection }}" rel="noopener">Data Protection / Datenschutzhinweis</a></small></p>
-        {% endif %}
+            <div class="profile-links">
+              {% if site.cv_link %}
+              <a href="{{ site.cv_link | relative_url }}">Curriculum Vitae</a>
+              {% endif %}
+              {% if site.job_market_paper_link %}
+              <a href="{{ site.job_market_paper_link | relative_url }}">Job Market Paper</a>
+              {% endif %}
+              {% if site.research_statement_link %}
+              <a href="{{ site.research_statement_link | relative_url }}">Research Statement</a>
+              {% endif %}
+              {% if site.teaching_statement_link %}
+              <a href="{{ site.teaching_statement_link | relative_url }}">Teaching Statement</a>
+              {% endif %}
+            </div>
+          </div>
+        </aside>
 
-        {% if site.clustrmaps_id %}
-        <div class="visitor-map">
-          <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=043361&w=153&t=n&d={{ site.clustrmaps_id }}&co=ffffff&cmo=3eb7f0&ct=043361'></script>
-        </div>
-        {% endif %}
-      </footer>
-    </main>
+        <section class="content-panel">
+          {{ content }}
+        </section>
+      </main>
+    </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

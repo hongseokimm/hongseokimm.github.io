@@ -1,15 +1,19 @@
-# Basic Information 
+# Basic Information
 title: Hong Seok Kim
-position: Ph.D. Candidate
+position: Ph.D. Candidate in Economics
 affiliation: Iowa State University
 affiliation_link: https://econ.iastate.edu/
-affiliation_logo: ./assets/img/iowa_state_logo.png
+department: Department of Economics
+office: 280B Heady Hall
+address: 518 Farm House Lane, Ames, Iowa 50011-1054
 email: hongseok (at) iastate.edu
+research_fields: Macroeconomics, demographic change, family economics
 
 # Search Engine Optimization (SEO)
-keywords: hongseok kim, kim hongseok, hongseokimm, hongseokkim
-canonical: https://www.econ.iastate.edu/
-description: Hongseok Kim is a Ph.D. Candidate in Economics at the Iowa State University. 
+keywords: hongseok kim, kim hongseok, hongseokimm, hongseokkim, macroeconomics, family economics
+canonical: https://hongseokimm.github.io/
+url: https://hongseokimm.github.io
+description: Hong Seok Kim is a Ph.D. Candidate in Economics at Iowa State University.
 
 # The option is used to enable the Johns Hopkins template.
 enable_hopkins_logo: true
@@ -18,24 +22,24 @@ enable_hopkins_logo: true
 enable_last_update: false
 
 # Links
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/HongSeok_CV_Latest.pdf?v=20260207
-github_link: https://github.com/
-twitter: https://twitter.com/
+cv_link: /assets/files/HongSeok_CV_Latest.pdf?v=20260207
+research_statement_link: /assets/files/Research_Statement_Kim_Hongseok.pdf
+teaching_statement_link: /assets/files/Teaching_Statement_Kim_Hongseok.pdf
+job_market_paper_link: /assets/files/JMP_Kim_HongSeok.pdf
 
-# Images 
-avatar: assets/img/headshot.JPG
-favicon: ./assets/img/iowastate.png
-favicon_dark: ./assets/img/iowastate.png
+# Images
+avatar: /assets/img/JMP_Hongseok_headshot.jpeg
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnotes
-footnote: Feel free to use my website's source code.
-footnote_link: https://github.com/yaoyao-liu/minimal-light
+footnote:
+footnote_link:
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: l3lesztPwCz-uXlzFI1Lt9SB3Ctz-pBQuMdYqnD0Ul8
+clustrmaps_id:
 
 # The following files will be removed from the generated website.
 exclude:
