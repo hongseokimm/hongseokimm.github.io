@@ -1,14 +1,14 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Spectral:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&display=swap");
 
 :root {
-  --page-bg: #f8f4ec;
-  --ink: #000000;
-  --accent: #9a3412;
-  --accent-strong: #ad3b04;
-  --muted: #555555;
+  --page-bg: #f4f2ec;
+  --ink: #111111;
+  --accent: #315d6d;
+  --accent-strong: #244856;
+  --muted: #5d646b;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
   background-color: var(--page-bg);
   margin: 5px 10px;
   color: var(--ink);
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Saira", sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -27,7 +27,7 @@ body {
 a {
   color: var(--accent);
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 a:hover {
@@ -51,19 +51,23 @@ img {
 }
 
 .top-links {
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin: 20px auto 40px auto;
-  max-width: 750px;
-  width: 100%;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .top-links a {
-  padding: 0 0.5em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.95em;
+  font-size: 1.03rem;
+  font-weight: 600;
 }
 
 .top-links a + a {
-  margin-left: 0.5em;
+  margin-left: 0;
   border-left: 1px solid var(--accent);
 }
 
@@ -81,12 +85,18 @@ img {
   text-align: left;
 }
 
+.profile-wrap {
+  display: flex;
+  justify-content: center;
+}
+
 .profile-table {
-  width: 100%;
-  max-width: 650px;
+  width: min(760px, 100%);
+  max-width: 760px;
   border: none;
   border-collapse: collapse;
-  margin: 0 auto 2em auto;
+  table-layout: fixed;
+  margin: 0 0 2em 26px;
 }
 
 .profile-table td {
@@ -96,7 +106,7 @@ img {
 
 .photo-cell {
   width: 180px;
-  padding-right: 18px;
+  padding-right: 28px;
 }
 
 .profile-table img {
@@ -109,7 +119,6 @@ img {
 
 .profile-info {
   color: var(--accent);
-  font-family: "Spectral", serif;
   font-size: 1.3em;
   margin-bottom: 0.5em;
   font-weight: 700;
@@ -128,6 +137,15 @@ img {
   line-height: 1.4;
 }
 
+.quiet-link {
+  color: inherit;
+  font-weight: 400;
+}
+
+.quiet-link:hover {
+  color: var(--accent);
+}
+
 .content-divider {
   border: none;
   border-top: 1px solid #000000;
@@ -135,7 +153,6 @@ img {
 }
 
 .section-title {
-  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 1.05em;
   margin-top: 1.5em;
@@ -186,7 +203,6 @@ img {
 }
 
 .subsection-title {
-  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 1.05em;
   margin-top: 1.75em;
@@ -199,11 +215,13 @@ img {
   }
 
   .top-links {
+    display: inline-flex;
     white-space: nowrap;
   }
 
   .top-links a {
     font-size: smaller;
+    padding: 0 0.7em;
   }
 
   .profile-table,
@@ -212,6 +230,10 @@ img {
   .profile-table td {
     display: block;
     width: 100%;
+  }
+
+  .profile-table {
+    margin: 0 0 2em 0;
   }
 
   .profile-table img {
