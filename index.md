@@ -5,7 +5,7 @@ title: Home
 
 <table class="profile-table">
   <tr>
-    <td>
+    <td class="photo-cell">
       <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait">
     </td>
     <td>

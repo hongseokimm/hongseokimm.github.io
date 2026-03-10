@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Spectral:wght@600;700&display=swap");
 
 :root {
   --page-bg: #f8f4ec;
@@ -19,7 +19,7 @@ body {
   background-color: var(--page-bg);
   margin: 5px 10px;
   color: var(--ink);
-  font-family: "Lato", sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -94,9 +94,14 @@ img {
   padding: 0;
 }
 
+.photo-cell {
+  width: 220px;
+  padding-right: 18px;
+}
+
 .profile-table img {
   width: 100%;
-  max-width: 300px;
+  max-width: 220px;
   height: auto;
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -104,6 +109,7 @@ img {
 
 .profile-info {
   color: var(--accent);
+  font-family: "Spectral", serif;
   font-size: 1.3em;
   margin-bottom: 0.5em;
   font-weight: 700;
@@ -129,6 +135,7 @@ img {
 }
 
 .section-title {
+  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 1.05em;
   margin-top: 1.5em;
@@ -179,6 +186,7 @@ img {
 }
 
 .subsection-title {
+  font-family: "Spectral", serif;
   font-weight: 700;
   font-size: 1.05em;
   margin-top: 1.75em;
@@ -207,7 +215,7 @@ img {
   }
 
   .profile-table img {
-    max-width: 300px;
+    max-width: 220px;
     margin: 0 auto 1em auto;
   }
 
