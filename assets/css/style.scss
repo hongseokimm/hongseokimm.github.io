@@ -88,15 +88,16 @@ img {
 .profile-wrap {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .profile-table {
-  width: min(760px, 100%);
-  max-width: 760px;
+  width: min(650px, 100%);
+  max-width: 650px;
   border: none;
   border-collapse: collapse;
   table-layout: fixed;
-  margin: 0 0 2em 26px;
+  margin: 0 auto 2em auto;
 }
 
 .profile-table td {
@@ -234,7 +235,7 @@ img {
   }
 
   .profile-table {
-    margin: 0 0 2em 0;
+    margin: 0 auto 2em auto;
   }
 
   .profile-table img {
