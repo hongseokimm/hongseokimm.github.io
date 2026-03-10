@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
-    <title>{{ site.title }} | {{ site.position }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,73 +27,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
   </head>
-  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}">
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        <nav class="primary-nav" aria-label="Primary">
+  <body>
+    <div class="hr-line"></div>
+    <div class="nav-wrap">
+      <nav class="top-links" aria-label="Primary">
           {% include navigation.md %}
-        </nav>
-      </header>
-
-      <main class="site-grid">
-        <aside class="profile-panel">
-          {% if site.avatar %}
-          <figure class="profile-portrait">
-            <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait" />
-          </figure>
-          {% endif %}
-
-          <div class="profile-copy">
-            <p class="profile-name">{{ site.title }}</p>
-            {% if site.position %}
-            <p class="profile-position">{{ site.position }}</p>
-            {% endif %}
-
-            <blockquote class="profile-details">
-              {% if site.department %}
-              <p>{{ site.department }}</p>
-              {% endif %}
-              {% if site.affiliation %}
-              <p><a href="{{ site.affiliation_link }}" rel="noopener">{{ site.affiliation }}</a></p>
-              {% endif %}
-              {% if site.office %}
-              <p>{{ site.office }}</p>
-              {% endif %}
-              {% if site.address %}
-              <p>{{ site.address }}</p>
-              {% endif %}
-              {% if site.email %}
-              <p><a href="mailto:{{ site.email | replace: ' (at) ', '@' | replace: ' ', '' }}">{{ site.email }}</a></p>
-              {% endif %}
-            </blockquote>
-
-            {% if site.research_fields %}
-            <p class="profile-fields">{{ site.research_fields }}</p>
-            {% endif %}
-
-            <div class="profile-links">
-              {% if site.cv_link %}
-              <a href="{{ site.cv_link | relative_url }}">Curriculum Vitae</a>
-              {% endif %}
-              {% if site.job_market_paper_link %}
-              <a href="{{ site.job_market_paper_link | relative_url }}">Job Market Paper</a>
-              {% endif %}
-              {% if site.research_statement_link %}
-              <a href="{{ site.research_statement_link | relative_url }}">Research Statement</a>
-              {% endif %}
-              {% if site.teaching_statement_link %}
-              <a href="{{ site.teaching_statement_link | relative_url }}">Teaching Statement</a>
-              {% endif %}
-            </div>
-          </div>
-        </aside>
-
-        <section class="content-panel">
-          {{ content }}
-        </section>
-      </main>
+      </nav>
     </div>
+
+    <main class="content-shell">
+      {{ content }}
+    </main>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

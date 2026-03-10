@@ -1,24 +1,33 @@
 ---
 layout: homepage
+title: Home
 ---
 
-<section class="page-intro" id="about-me">
-  <p class="eyebrow">About</p>
-  <h1 class="page-heading">Researching how demographic change and household decisions shape the macroeconomy.</h1>
-  <p class="lede">I am a fifth-year Ph.D. Candidate in Economics at <a href="https://www.econ.iastate.edu/">Iowa State University</a>.</p>
-  <p>Before beginning my Ph.D., I received my bachelor's and master's degrees from <a href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
-  <p>My research sits at the intersection of macroeconomics, demographic transitions, and family economics, with a particular focus on retirement behavior, fertility decisions, and the distributional effects of policy.</p>
-</section>
+<table class="profile-table">
+  <tr>
+    <td>
+      <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait">
+    </td>
+    <td>
+      <p class="profile-info">{{ site.title }}</p>
+      <blockquote>
+        <p class="bio">
+          {{ site.position }}<br>
+          {{ site.department }}<br>
+          <a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a><br><br>
+          {{ site.office }}<br>
+          {{ site.address }}<br><br>
+          <a href="mailto:hongseok@iastate.edu">hongseok@iastate.edu</a>
+        </p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
 
-<section class="section-block">
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">Research</p>
-      <h2>Current Projects</h2>
-    </div>
-    <a class="section-link" href="{{ '/research' | relative_url }}">All research</a>
-  </div>
-  {% include research_cards.html compact="true" %}
-</section>
+<p class="bio">I am a fifth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
-{% include_relative _includes/news.md %}
+<p class="bio">My research focuses on macroeconomics, demographic change, and family economics. I study how retirement behavior, fertility decisions, and related household choices shape aggregate outcomes and the distributional effects of public policy.</p>
+
+<p class="bio">My current work includes a job market paper on retirement and Social Security financing, and a second project on ambiguity aversion and fertility decisions. Additional details are available on the <a href="{{ '/research' | relative_url }}">research page</a>, and my CV is available <a href="{{ site.cv_link | relative_url }}">here</a>.</p>
+
+<hr class="content-divider">

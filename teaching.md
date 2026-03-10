@@ -1,14 +1,38 @@
 ---
 layout: homepage
+title: Teaching
 ---
 
-<section class="page-intro">
-  <p class="eyebrow">Teaching</p>
-  <h1 class="page-heading">Teaching</h1>
-  <p class="lede">I have taught undergraduate macroeconomics and served as a teaching assistant in core Ph.D. and undergraduate courses at Iowa State University.</p>
-  <div class="document-links">
-    <a href="{{ site.teaching_statement_link | relative_url }}">Teaching Statement</a>
-  </div>
-</section>
+<p class="section-title centered-content">Teaching</p>
 
-{% include_relative _includes/teaching.md %}
+<p class="subsection-title">Sole Instructor</p>
+<ul class="plain-list">
+  <li>
+    <span class="entry-title">ECON 102, Principles of Macroeconomics</span>
+    <br><span class="entry-meta">Iowa State University, 2025</span>
+  </li>
+</ul>
+
+<p class="subsection-title">Teaching Assistant</p>
+<ul class="plain-list">
+  <li>
+    <span class="entry-title">ECON 602, Ph.D. Macroeconomics Analysis</span>
+    <br><span class="entry-meta">Iowa State University, Fall 2025</span>
+  </li>
+  <li>
+    <span class="entry-title">ECON 604, Ph.D. Advanced Macroeconomics</span>
+    <br><span class="entry-meta">Iowa State University, Spring 2024 and Spring 2025</span>
+  </li>
+  <li>
+    <span class="entry-title">ECON 603, Ph.D. Microeconomics: Game Theory</span>
+    <br><span class="entry-meta">Iowa State University, Spring 2023</span>
+  </li>
+  <li>
+    <span class="entry-title">ECON 101, Introduction to Microeconomics</span>
+    <br><span class="entry-meta">Iowa State University, Fall 2023</span>
+  </li>
+  <li>
+    <span class="entry-title">ECON 371, Introduction to Econometrics</span>
+    <br><span class="entry-meta">Iowa State University, Fall 2022</span>
+  </li>
+</ul>
