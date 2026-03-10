@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@500&family=Open+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@500&family=Source+Sans+3:wght@400;500;600&display=swap");
 
 :root {
   --page-bg: #f4f2eb;
@@ -30,7 +30,7 @@ body {
     radial-gradient(circle at bottom left, #ebe4d7 0%, transparent 42%),
     var(--page-bg);
   color: var(--ink);
-  font: 400 1.05rem/1.72 "Open Sans", "Segoe UI", sans-serif;
+  font: 400 1.05rem/1.72 "Source Sans 3", "Segoe UI", sans-serif;
 }
 
 a {
