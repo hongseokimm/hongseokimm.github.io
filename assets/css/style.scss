@@ -120,12 +120,13 @@ img {
 .profile-info {
   color: var(--accent);
   font-size: 1.3em;
-  margin-bottom: 0.5em;
+  margin: 0 0 0.5em 1em;
   font-weight: 700;
+  line-height: 1.15;
 }
 
 .profile-table blockquote {
-  margin-left: 1em;
+  margin: 0 0 0 1em;
 }
 
 .profile-table strong {

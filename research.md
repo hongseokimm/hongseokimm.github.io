@@ -7,7 +7,7 @@ title: Research
 
 <ol class="paper-list">
   <li>
-    <a href="{{ site.job_market_paper_link | relative_url }}">Precautionary Retirement</a>
+    <span class="entry-title">Precautionary Retirement</span>
     <br><i>Job Market Paper</i>
   </li>
 

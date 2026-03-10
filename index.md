@@ -28,8 +28,8 @@ title: Home
 
 <p class="bio">I am a fifth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
-<p class="bio">My research focuses on macroeconomics, demographic change, and family economics. I study how retirement behavior, fertility decisions, and related household choices shape aggregate outcomes and the distributional effects of public policy.</p>
+<p class="bio">My research interests are in <strong>macroeconomics</strong>, with a particular focus on retirement and Social Security. I am especially interested in how retirement behavior and Social Security policy shape household decisions and broader macroeconomic outcomes.</p>
 
-<p class="bio">My current work includes a job market paper on retirement and Social Security financing, and a second project on ambiguity aversion and fertility decisions. Additional details are available on the <a href="{{ '/research' | relative_url }}">research page</a>, and my CV is available <a href="{{ site.cv_link | relative_url }}">here</a>.</p>
+<p class="bio">My current work studies retirement and Social Security financing. Additional details are available on the <a href="{{ '/research' | relative_url }}">research page</a>, and my CV is available <a href="{{ site.cv_link | relative_url }}">here</a>.</p>
 
 <hr class="content-divider">
