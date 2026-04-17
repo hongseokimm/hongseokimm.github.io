@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
   </head>
-  <body>
+  <body{% if page.title == "Home" %} class="home-page"{% endif %}>
     <div class="hr-line"></div>
     <div class="nav-wrap">
       <nav class="top-links" aria-label="Primary">
