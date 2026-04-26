@@ -7,7 +7,7 @@ title: Research
 
 <ol class="paper-list">
   <li>
-    <a class="entry-title" href="{{ '/assets/files/Kim_jmp.pdf' | relative_url }}" target="_blank" rel="noopener">Precautionary Retirement: Solvency Risk and the Claiming--Work Wedge</a>
+    <span class="entry-title">Precautionary Retirement: Solvency Risk and the Claiming--Work Wedge</span>
     <details class="paper-abstract">
       <summary>Abstract</summary>
       <p>With Social Security's trust fund facing depletion, this paper studies how the system's regressive payroll tax shapes labor supply and retirement decisions, motivated by an observation that high-income older males work more and longer. We develop a tractable labor supply model with heterogeneous work-costs, demonstrating that the elasticity of labor supply to financial incentives is inherently distributional. High-income workers, further from retirement cutoff, primarily adjust their hours on the intensive margin, while those with higher work-costs adjust participation on the extensive margin. Our central contribution is the measurement of these income group-specific elasticities, providing a framework to evaluate the distributional effects of policy reforms. We find seniors are 1.71 more elastic than the prime-age workers, implying that raising payroll tax rates may not resolve the solvency of Social Security.</p>
