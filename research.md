@@ -7,7 +7,7 @@ title: Research
 
 <ol class="paper-list">
   <li>
-    <span class="entry-title">Who Insures the Insurer? Social Security Solvency Risk, Claiming, and Work</span>
+    <span class="entry-title">Precautionary Retirement: Social Security Insolvency Risk, Claiming, and Work</span>
     <details class="paper-abstract">
       <summary>Abstract</summary>
       <p>Social Security insures households against old-age income risk. But when Social Security itself becomes fiscally risky, households must insure against the insurer. I study how perceived solvency risk changes retirement behavior before any reform is enacted. I build a life-cycle model in which older households jointly choose saving, work, and benefit claiming, allowing them to claim Social Security while continuing to work. Comparing scheduled benefits, a deterministic expected-benefit reduction, and a stochastic solvency-risk environment, I find that recent high-solvency-risk conditions raise employment at ages 62&ndash;69 by 4.0 percentage points and increase the claimed-and-working share by 4.3 percentage points. Welfare losses are sizable but mostly reflect lower expected benefits rather than uncertainty itself: the total consumption-equivalent cost is about 4.2 percent of lifetime non-bequest consumption, while the pure-risk component is close to zero on average. Unresolved solvency risk is already a household-level economic shock, inducing older households to self-insure through work and claiming.</p>
