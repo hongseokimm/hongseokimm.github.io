@@ -4,11 +4,11 @@
 
 <div class="research-list">
   <article class="research-card">
-    <h3 class="research-title">Ambiguity Aversion and Fertility Decisions</h3>
+    <h3 class="research-title">Barro-Becker with Fertility Inertia</h3>
     <details class="abstract-toggle">
       <summary>Abstract</summary>
       <p>
-        This paper investigates how ambiguity aversion affects fertility decisions, considering the uncertainty surrounding the benefits of parenthood. We extend the Becker and Barro (1988) fertility model by incorporating ambiguity aversion to capture parents' decision-making process accurately. We assume that individuals care about their own and children's well-being (dynastic altruism) and face ambiguity about their children's future abilities (ambiguity aversion). Using a multiple priors utility framework, we model parents' preferences as maximizing their minimum expected utility of descendants, focusing on the worst-case scenario for their child's ability. Our findings suggest that more ambiguity-averse parents tend to have fewer children, as they emphasize the lowest possible outcome. This insight helps explain declining fertility rates and rising childlessness in developed countries, as individuals prioritize predictable outcomes over uncertain returns of parenthood.
+        Why do large pronatalist policies often produce small fertility responses? This paper develops a dynastic fertility model in which parents observe public news about future childrearing conditions but are uncertain about how informative that news is for their own household. Parents choose fertility and child investment under a cautious interpretation of the signal. The model delivers fertility inertia: over a range of moderately adverse signals, news lowers welfare but leaves fertility, child investment, and consumption unchanged. The mechanism is that bad news both lowers the expected value of children and, if informative, resolves uncertainty. A cautious parent adjusts the interpretation of the signal until these forces offset at the margin. The theory predicts muted responses to good news, sharp responses to severe bad news, and inaction after moderately bad news. It implies that pronatalist policy should be evaluated not only by fiscal generosity but also by legibility. Policies that make household-specific parenthood payoffs clearer can have larger effects than larger but general transfers.
       </p>
     </details>
   </article>
