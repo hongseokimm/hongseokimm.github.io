@@ -7,8 +7,7 @@ title: Research
 
 <ol class="paper-list">
   <li>
-    <span class="entry-title">The Welfare Cost of Social Security Insolvency Risk</span><br>
-    <a href="{{ '/assets/files/JMP_Hongseok.pdf' | relative_url }}" download>Download paper</a>
+    <span class="entry-title">The Welfare Cost of Social Security Insolvency Risk</span>
     <details class="paper-abstract">
       <summary>Abstract</summary>
       <p>This paper studies the welfare cost of perceived Social Security insolvency. If households expect future benefit cuts, they may save more, work longer, or claim earlier before any cut occurs. I quantify these distortions in a life-cycle model with endogenous saving, labor supply, and claiming, disciplined by 1995--2025 subjective expectations data and linked to OASI finances. The model measures private welfare losses and fiscal feedbacks, asking whether pessimism is self-validating, self-correcting, or mainly privately costly. The results show that credible communication about payable benefits can have value even without changing taxes or scheduled benefits.</p>
