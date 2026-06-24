@@ -1,7 +1,7 @@
 ---
 ---
 
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 :root {
   --page-bg: #fffcf5;
@@ -19,9 +19,9 @@ body {
   background-color: var(--page-bg);
   margin: 5px 10px;
   color: var(--ink);
-  font-family: "EB Garamond", Garamond, "Times New Roman", serif;
-  font-size: 17px;
-  line-height: 1.55;
+  font-family: "Puritan", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.45;
 }
 
 a {
