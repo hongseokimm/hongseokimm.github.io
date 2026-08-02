@@ -8,7 +8,6 @@ title: Home
     <tr>
       <td class="photo-cell">
         <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait">
-        <p class="job-market-notice"><strong>I am on the academic job market for the 2026–2027 academic year.</strong></p>
       </td>
       <td>
         <p class="profile-info">{{ site.title }}</p>
@@ -27,7 +26,7 @@ title: Home
   </table>
 </div>
 
-<p class="bio">I am a fifth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
+<p class="bio"><strong>I am on the academic job market for the 2026–2027 academic year.</strong> I am a fifth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
 <p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on retirement and Social Security. I am especially interested in how retirement behavior and Social Security policy shape household decisions and broader macroeconomic outcomes.</p>
 
