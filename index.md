@@ -3,13 +3,12 @@ layout: homepage
 title: Home
 ---
 
-<p class="job-market-notice">I am on the academic job market for the 2026–2027 academic year.</p>
-
 <div class="profile-wrap">
   <table class="profile-table">
     <tr>
       <td class="photo-cell">
         <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }} portrait">
+        <p class="job-market-notice"><strong>I am on the academic job market for the 2026–2027 academic year.</strong></p>
       </td>
       <td>
         <p class="profile-info">{{ site.title }}</p>
