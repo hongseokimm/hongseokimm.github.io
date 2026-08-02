@@ -1,10 +1,7 @@
 ---
 ---
 
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.2.5/400.css");
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.2.5/400-italic.css");
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.2.5/700.css");
-@import url("https://cdn.jsdelivr.net/npm/@fontsource/iosevka@5.2.5/700-italic.css");
+@import url("https://fonts.googleapis.com/css2?family=Slabo+13px&family=Slabo+27px&display=swap");
 
 :root {
   --page-bg: #fffcf5;
@@ -22,10 +19,25 @@ body {
   background-color: var(--page-bg);
   margin: 5px 10px;
   color: var(--ink);
-  font-family: "Iosevka", "Courier New", monospace;
+  font-family: "Slabo 13px", Georgia, "Times New Roman", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.45;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.top-links,
+.section-title,
+.subsection-title,
+.profile-info,
+.entry-title,
+.research-title {
+  font-family: "Slabo 27px", Georgia, "Times New Roman", serif;
 }
 
 a {
