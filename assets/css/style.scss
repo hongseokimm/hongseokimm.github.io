@@ -227,6 +227,11 @@ img {
   margin-right: 0.2em;
 }
 
+.pdf-placeholder {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
 .paper-abstract[open] summary::before {
   content: "-";
 }
