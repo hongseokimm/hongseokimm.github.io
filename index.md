@@ -3,6 +3,8 @@ layout: homepage
 title: Home
 ---
 
+<p class="job-market-notice">I am on the academic job market for the 2026–2027 academic year.</p>
+
 <div class="profile-wrap">
   <table class="profile-table">
     <tr>
