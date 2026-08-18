@@ -32,6 +32,6 @@ title: Home
 
 <p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on aging economy. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 
-<p class="bio">My job market paper, <a href="{{ site.job_market_paper_link | relative_url }}" target="_blank" rel="noopener"><strong>The Intergenerational Welfare Cost of Social Security Insolvency</strong></a>, studies how the welfare cost of Social Security insolvency varies across generations.</p>
+<p class="bio">My job market paper, <a href="{{ site.job_market_paper_link | relative_url }}" target="_blank" rel="noopener"><strong>The Intergenerational Welfare Cost of Social Security Insolvency</strong></a>, examines which generations are most harmed by Social Security insolvency and why.</p>
 
 <hr class="content-divider">
