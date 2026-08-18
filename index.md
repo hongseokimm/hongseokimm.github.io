@@ -18,8 +18,7 @@ title: Home
             <a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a><br><br>
             {{ site.office }}<br>
             {{ site.address }}<br><br>
-            <a href="mailto:hongseok@iastate.edu">hongseok@iastate.edu</a><br>
-            <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV</a>
+            <a href="mailto:hongseok@iastate.edu">hongseok@iastate.edu</a>
           </p>
         </blockquote>
       </td>
@@ -33,6 +32,6 @@ title: Home
 
 <p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on aging economy. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 
-<p class="bio">My job market paper, <a href="{{ site.job_market_paper_link | relative_url }}" target="_blank" rel="noopener"><em>The Intergenerational Welfare Cost of Social Security Insolvency</em></a>, studies how the welfare burden of Social Security insolvency varies across generations.</p>
+<p class="bio">My job market paper, <a href="{{ site.job_market_paper_link | relative_url }}" target="_blank" rel="noopener"><strong>The Intergenerational Welfare Cost of Social Security Insolvency</strong></a>, studies how the welfare cost of Social Security insolvency varies across generations.</p>
 
 <hr class="content-divider">

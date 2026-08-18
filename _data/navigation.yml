@@ -2,6 +2,10 @@ main:
   - title: "Home"
     url: /
 
+  - title: "CV"
+    url: /assets/files/HongSeok_Main_CV.pdf
+    new_tab: true
+
   - title: "Research"
     url: /research
 
