@@ -26,3 +26,11 @@ title: Research
     </details>
   </li>
 </ol>
+
+<p class="section-title centered-content">Work in Progress</p>
+
+<ol class="paper-list">
+  <li>
+    <span class="entry-title">Optimal Immigration Policy under Private Information</span>
+  </li>
+</ol>

@@ -18,7 +18,8 @@ title: Home
             <a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a><br><br>
             {{ site.office }}<br>
             {{ site.address }}<br><br>
-            <a href="mailto:hongseok@iastate.edu">hongseok@iastate.edu</a>
+            <a href="mailto:hongseok@iastate.edu">hongseok@iastate.edu</a><br>
+            <a href="{{ site.cv_link | relative_url }}" target="_blank" rel="noopener">CV</a>
           </p>
         </blockquote>
       </td>
@@ -28,10 +29,10 @@ title: Home
 
 <p class="job-market-notice"><strong>I am on the academic job market for the 2026–2027 academic year.</strong></p>
 
-<p class="bio">I am a fifth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
+<p class="bio">I am a sixth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
-<p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on retirement and Social Security. I am especially interested in how retirement behavior and Social Security policy shape household decisions and broader macroeconomic outcomes.</p>
+<p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on aging economy. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 
-<p class="bio">My current work studies retirement and Social Security financing. Additional details are available on the <a href="{{ '/research' | relative_url }}">research page</a>, and my CV is available <a href="{{ site.cv_link | relative_url }}">here</a>.</p>
+<p class="bio">My job market paper, <a href="{{ site.job_market_paper_link | relative_url }}" target="_blank" rel="noopener"><em>The Intergenerational Welfare Cost of Social Security Insolvency</em></a>, studies how the welfare burden of Social Security insolvency varies across generations.</p>
 
 <hr class="content-divider">
