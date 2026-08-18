@@ -227,13 +227,9 @@ img {
   margin-right: 0.2em;
 }
 
-.pdf-link {
+.pdf-placeholder {
   color: var(--muted);
-  font-weight: 600;
-}
-
-.pdf-link:hover {
-  color: var(--accent-strong);
+  cursor: not-allowed;
 }
 
 .paper-abstract[open] summary::before {
