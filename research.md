@@ -7,10 +7,10 @@ title: Research
 
 <ol class="paper-list">
   <li>
-    <span class="entry-title">The Welfare Cost of Social Security Insolvency Risk</span>
+    <span class="entry-title">The Intergenerational Welfare Cost of Social Security Insolvency</span>
     <details class="paper-abstract">
       <summary>Abstract <span class="paper-pdf">· <span class="pdf-placeholder">pdf</span></span></summary>
-      <p>This paper studies the welfare cost of perceived Social Security insolvency. If households expect future benefit cuts, they may save more, work longer, or claim earlier before any cut occurs. I quantify these distortions in a life-cycle model with endogenous saving, labor supply, and claiming, disciplined by 1995--2025 subjective expectations data and linked to OASI finances. The model measures private welfare losses and fiscal feedbacks, asking whether pessimism is self-validating, self-correcting, or mainly privately costly. The results show that credible communication about payable benefits can have value even without changing taxes or scheduled benefits.</p>
+      <p>This paper asks which generations bear the welfare cost of Social Security insolvency. The trust fund is expected to be depleted in 2033, but each generation meets it at a different age, with different years of benefits at stake and different means of adjusting. In a life-cycle model with endogenous saving, labor supply, human capital, and claiming, I quantify how the expected duration of reduced payments shifts that welfare incidence. The main result is that the cohort losing the most unpaid dollars is not the cohort losing the most welfare. Households that expect the shortfall self-insure by saving, working, and human-capital investment, but the cost of doing so depends on age. The youngest cohorts spread the adjustment over a career, whereas mid-career cohorts must compress it into the years before retirement and end up worse off than if the shortfall had been a surprise. Duration matters as well. When the shortfall is brief, the burden lands mainly on retirees, and when it is prolonged, the burden shifts to the working generations behind them.</p>
     </details>
   </li>
 </ol>
