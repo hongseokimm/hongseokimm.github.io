@@ -1,37 +1,7 @@
 ---
 ---
 
-@font-face {
-  font-family: "Maple Mono";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@5.3.0/latin-400-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Maple Mono";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 500;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@5.3.0/latin-500-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Maple Mono";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@5.3.0/latin-600-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Maple Mono";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@5.3.0/latin-700-normal.woff2") format("woff2");
-}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap");
 
 :root {
   --page-bg: #fffcf5;
@@ -49,9 +19,9 @@ body {
   background-color: var(--page-bg);
   margin: 5px 10px;
   color: var(--ink);
-  font-family: "Maple Mono", monospace;
-  font-weight: 500;
-  font-size: 17px;
+  font-family: "Noto Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.48;
 }
 
