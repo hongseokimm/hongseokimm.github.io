@@ -24,20 +24,22 @@
     <link rel="canonical" href="{{ canonical_url }}"/>
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark | relative_url }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon | relative_url }}" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script src="{{ '/assets/js/favicon-switcher.js' | relative_url }}" type="application/javascript"></script>
   </head>
   <body>
-    <div class="hr-line"></div>
-    <div class="nav-wrap">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
       <nav class="top-links" aria-label="Primary">
           {% include navigation.md %}
       </nav>
-    </div>
+    </header>
 
-    <main class="content-shell">
+    <main id="main-content" class="content-shell" tabindex="-1">
       {{ content }}
     </main>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>

@@ -3,9 +3,9 @@ layout: homepage
 title: Teaching
 ---
 
-<p class="section-title centered-content">Teaching</p>
+<h1 class="page-title">Teaching</h1>
 
-<p class="subsection-title">Sole Instructor</p>
+<h2 class="section-title">Sole Instructor</h2>
 <ul class="plain-list">
   <li>
     <span class="entry-title">ECON 1020, Principles of Macroeconomics</span>
@@ -13,7 +13,7 @@ title: Teaching
   </li>
 </ul>
 
-<p class="subsection-title">Graduate Recitation and Lab Instructor</p>
+<h2 class="section-title">Graduate Recitation and Lab Instructor</h2>
 <ul class="plain-list">
   <li>
     <span class="entry-title">ECON 6040, Advanced Macroeconomics Analysis</span>
@@ -33,7 +33,7 @@ title: Teaching
   </li>
 </ul>
 
-<p class="subsection-title">Undergraduate Teaching Assistant and Lab Instructor</p>
+<h2 class="section-title">Undergraduate Teaching Assistant and Lab Instructor</h2>
 <ul class="plain-list">
   <li>
     <span class="entry-title">ECON 1010, Principles of Microeconomics</span>
@@ -53,7 +53,7 @@ title: Teaching
   </li>
 </ul>
 
-<p class="subsection-title">Additional Teaching</p>
+<h2 class="section-title">Additional Teaching</h2>
 <ul class="plain-list">
   <li>
     <span class="entry-title">ECON 3270, Economics of Discrimination</span>
