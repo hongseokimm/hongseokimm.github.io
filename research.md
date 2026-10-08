@@ -23,11 +23,11 @@ title: Research
 
 <ul class="paper-list plain-list">
   <li>
-    <h3 class="entry-title">Fertility Inertia: Ambiguous News and Reliable Support</h3>
+    <h3 class="entry-title">Fertility Inertia under Ambiguity Aversion</h3>
     <div class="paper-actions">
       <details class="paper-abstract">
         <summary>Abstract</summary>
-        <p>I study why parents can respond differently to public news and reliable financial support. Parents value their descendants’ utility. They dislike risk in its total value. They also do not know how well public news predicts their children’s outcomes. They evaluate each family plan by its worst-case value. I apply the information-inertia mechanism to a local normal model of fertility. The model gives an interval of bad news where welfare falls but nearby optimal choices stay unchanged. These choices include fertility, investment per child, and consumption. A reliable subsidy can still raise fertility in this interval. In a policy model with an explicit solution, an uncertain benefit is equivalent to a certain benefit multiplied by the lowest possible delivery rate. More effective support raises fertility. It also shifts and widens the inertia interval. Less uncertainty about signal informativeness narrows the interval for a fixed family plan. The analysis separates the promised benefit, reliable delivery, and information about future conditions. The exact inertia result is limited to maxmin preferences, continuous fertility, and the local normal representation.</p>
+        <p>High family-policy spending often produces only small changes in fertility. I study this problem in a Barro–Becker model. Parents value descendants’ utility, dislike risk in its total value, and assess family plans by their worst-case value. They are uncertain about how well public news predicts children’s outcomes. Information inertia creates an interval of bad news in which welfare falls but locally optimal fertility, investment per child, and consumption remain unchanged. Reliable subsidies can still raise fertility. An explicit policy solution discounts uncertain benefits by the lowest possible delivery rate. Thus, unclear delivery requires larger promises for the same fertility response. More effective support raises fertility and shifts and widens the inertia interval. Less uncertainty about signal informativeness narrows it for a fixed family plan. This suggests two policy dimensions: generosity and legibility. The exact inertia result is limited to maxmin preferences, continuous fertility, and a local normal representation.</p>
       </details>
       <a class="paper-download" href="{{ site.fertility_paper_link | relative_url }}" download aria-label="Download fertility paper PDF">Paper (PDF)</a>
     </div>
