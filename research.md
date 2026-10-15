@@ -5,7 +5,16 @@ title: Research
 
 <h1 class="page-title">Research</h1>
 
-<h2 class="section-title">Job Market Paper</h2>
+<h2 id="job-market-paper" class="section-title">Job Market Paper</h2>
+
+<ul class="paper-list plain-list">
+  <li>
+    <h3 class="entry-title">Constrained-Optimal Pension Benefit Rules under Debt Ceilings</h3>
+    <p class="entry-meta">Abstract forthcoming.</p>
+  </li>
+</ul>
+
+<h2 class="section-title">Working Papers</h2>
 
 <ul class="paper-list plain-list">
   <li>
@@ -13,15 +22,11 @@ title: Research
     <div class="paper-actions">
       <details class="paper-abstract">
         <summary>Abstract</summary>
-        <p>Social Security will not be able to pay full scheduled benefits after its trust fund runs out. If the government guarantees the retirement benefits, should it borrow or raise taxes? And who pays? I study this question in a general-equilibrium overlapping-generations model, calibrated to 2010 U.S. economy, in which people choose how much to save, how many hours to work, and how much to invest in skills. A guarantee has two parts. First, it removes uncertainty about future benefits. But a clear promise to pay lower benefits would do the same. Second, it requires taxpayers to pay for the funding gap. The guarantee helps people alive today, especially older people, but future generations pay for it through higher taxes and more public debt. As a result, a guarantee is a reason to borrow less, not more. It makes lower public debt more valuable. When society puts more weight on future generations, it is better to reduce debt sooner, but this is costly for people alive today.</p>
+        <p>This paper asks which generations bear the welfare cost of Social Security insolvency. The trust fund is expected to be depleted in 2033, but each generation meets it at a different age, with different years of benefits at stake and different means of adjusting. In a life-cycle model with endogenous saving, labor supply, human capital, and claiming, I quantify how the expected duration of reduced payments shifts that welfare incidence. The main result is that the cohort losing the most unpaid dollars is not the cohort losing the most welfare. Households that expect the shortfall self-insure by saving, working, and human-capital investment, but the cost of doing so depends on age. The youngest cohorts spread the adjustment over a career, whereas mid-career cohorts must compress it into the years before retirement and end up worse off than if the shortfall had been a surprise. Duration matters as well. When the shortfall is brief, the burden lands mainly on retirees, and when it is prolonged, the burden shifts to the working generations behind them.</p>
       </details>
+      <a class="paper-download" href="{{ site.insolvency_paper_link | relative_url }}" download aria-label="Download Social Security insolvency paper PDF">Paper (PDF)</a>
     </div>
   </li>
-</ul>
-
-<h2 class="section-title">Working Paper</h2>
-
-<ul class="paper-list plain-list">
   <li>
     <h3 class="entry-title">Fertility Inertia under Ambiguity Aversion</h3>
     <div class="paper-actions">
@@ -38,6 +43,10 @@ title: Research
 
 <ul class="paper-list plain-list">
   <li>
-    <h3 class="entry-title">Optimal Immigration Policy under Private Information</h3>
+    <h3 class="entry-title">Optimal Immigration Policy under Private Information: A Macroeconomic Approach</h3>
+  </li>
+  <li>
+    <h3 class="entry-title">Insurance and Learning about Self-Protection</h3>
+    <p class="entry-meta">with Hye Won Lee</p>
   </li>
 </ul>

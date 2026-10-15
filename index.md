@@ -21,6 +21,6 @@ title: Home
 
 <p class="bio">I am a sixth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
-<p class="bio">My research interests are in <strong>macroeconomics and public economics</strong>, with a particular focus on aging economy. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
+<p class="bio">My research interests are in <strong>macroeconomics, public economics, and the economics of aging</strong>. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 
-<p class="bio">My job market paper, <strong>The Intergenerational Welfare Cost of Social Security Insolvency</strong>, examines which generations are most harmed by Social Security insolvency and why.</p>
+<p class="bio">My job market paper is <a href="{{ '/research' | relative_url }}#job-market-paper"><strong>Constrained-Optimal Pension Benefit Rules under Debt Ceilings</strong></a>.</p>
