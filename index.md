@@ -19,7 +19,7 @@ title: Home
 
 <p class="job-market-notice"><strong>I am on the 2026-2027 academic job market</strong></p>
 
-<p class="bio">I am a sixth-year Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
+<p class="bio">I am a Ph.D. Candidate in Economics at Iowa State University. Before beginning my Ph.D., I received my bachelor's and master's degrees from <a class="quiet-link" href="https://www.hanyang.ac.kr/">Hanyang University</a> in Seoul, South Korea.</p>
 
 <p class="bio">My research interests are in <strong>macroeconomics, public economics, and the economics of aging</strong>. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 

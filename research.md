@@ -46,7 +46,6 @@ title: Research
     <h3 class="entry-title">Optimal Immigration Policy under Private Information: A Macroeconomic Approach</h3>
   </li>
   <li>
-    <h3 class="entry-title">Insurance and Learning about Self-Protection</h3>
-    <p class="entry-meta">with Hye Won Lee</p>
+    <h3 class="entry-title">Insurance and Learning about Self-Protection: Evidence from Conservation Reserve Program <span class="entry-meta paper-coauthors">(with Hyewon Lee)</span></h3>
   </li>
 </ul>
