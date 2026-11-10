@@ -23,4 +23,4 @@ title: Home
 
 <p class="bio">My research interests are in <strong>macroeconomics, public economics, and the economics of aging</strong>. I study how demographic change and public policy shape household decisions and broader macroeconomic outcomes. More information is available on my <a href="{{ '/research' | relative_url }}">research page</a>.</p>
 
-<p class="bio">My job market paper is <a href="{{ '/research' | relative_url }}#job-market-paper"><strong>Financing Social Security Reform without Losses</strong></a>.</p>
+<p class="bio">My job market paper is <a href="{{ '/research' | relative_url }}#job-market-paper"><strong>Optimal Social Security Reform with a Debt Ceiling and Learning by Doing</strong></a>.</p>
