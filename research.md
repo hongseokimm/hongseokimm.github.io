@@ -9,7 +9,7 @@ title: Research
 
 <ul class="paper-list plain-list">
   <li>
-    <h3 class="entry-title">Optimal Social Security Reform with a Debt Ceiling and Learning by Doing</h3>
+    <h3 class="entry-title">Constrained-Optimal Social Security Reform with a Debt Ceiling and Learning by Doing</h3>
     <div class="paper-actions">
       <details class="paper-abstract">
         <summary>Abstract</summary>
